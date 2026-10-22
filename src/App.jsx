@@ -6,7 +6,7 @@ function App() {
     <div className="app">
       <ProfileCard
         name="Aditya Kunjir"
-        imageUrl="/avatar.svg"
+        imageUrl={`${import.meta.env.BASE_URL}avatar.svg`}
         description="Aspiring web developer who loves learning React and building cool projects."
       />
     </div>
